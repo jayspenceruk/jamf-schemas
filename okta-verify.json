@@ -1,0 +1,57 @@
+{
+    "title": "Okta Verify Config",
+    "description": "Config for the Okta Verify app on macOS",
+    "__preferencedomain": "com.okta.mobile",
+    "properties": {
+        "OktaVerify.EnrollmentOptions": {
+            "title": "Silent Enrollment",
+            "description": "Automatically launch the Okta Verify enrollment flow for unregistered users",
+            "links": [
+                {
+                    "rel": "More information",
+                    "href": "https://help.okta.com/oie/en-us/Content/Topics/identity-engine/devices/managed-app-configs-macOS.htm"
+                }
+            ],
+            "type": "string",
+            "options": {
+                "enum_titles": ["SilentEnrollmentEnabled", "SilentEnrollmentDisabled"]
+                },
+                "enum": ["SilentEnrollmentEnabled", "SilentEnrollmentDisabled"]
+        },
+        "OktaVerify.OrgUrl": {
+            "title": "Sign-In URL",
+            "description": "Pre-populate the org URL",
+            "type": "string",
+            "default": "company.okta.com",
+            "links": [
+                {
+                    "rel": "More information",
+                    "href": "https://help.okta.com/oie/en-us/Content/Topics/identity-engine/devices/managed-app-configs-macOS.htm"
+                }
+            ]
+        },
+        "OktaVerify.ReportDiagnostics": {
+            "title": "Diagnostics",
+            "description": "Configure whether to report diagnostic information to Okta",
+            "type": "boolean",
+            "default": false,
+            "links": [
+                {
+                    "rel": "More information",
+                    "href": "https://help.okta.com/oie/en-us/Content/Topics/identity-engine/devices/managed-app-configs-macOS.htm"
+                }
+            ]
+        },
+        "OktaVerify.Plugins": {
+            "title": "Enable EDR plugin",
+            "description": "Enable EDR plugin for macOS Okta Verify",
+            "type": "string",
+            "links": [
+                {
+                    "rel": "More information",
+                    "href": "https://help.okta.com/oie/en-us/Content/Topics/identity-engine/devices/edr-integration-plugin-macOS.htm"
+                }
+            ]
+        }
+    }
+}
