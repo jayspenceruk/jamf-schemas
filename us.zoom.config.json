@@ -1,0 +1,216 @@
+{
+  "title": "General Zoom Settings",
+  "description": "https://support.zoom.us/hc/en-us/articles/115001799006-Mass-deploying-preconfigured-settings-for-Mac",
+  "properties": {
+    "zAutoSSOLogin": {
+      "title": "Auto SSO Login",
+      "description": "Defaults login to use SSO",
+      "type": "boolean"
+    },
+    "zSSOHost": {
+      "title": "SSO URL",
+      "description": "Preconfigure SSO URL",
+      "type": "string"
+    },
+    "ForceSSOURL": {
+      "title": "Force SSO URL",
+      "description": "Configure and lock the SSO URL. For example, hooli.zoom.us would be set as ForceSSOUrl=hooli",
+      "type": "string"
+    },
+    "DisableAutoLaunchSSO": {
+      "title": "Disable Auto Launch SSO",
+      "description": "Prevent Zoom from automatically launching the previously used SSO URL. This is useful for users with multiple accounts, each having their own SSO URL.",
+      "type": "boolean"
+    },
+    "NoGoogle": {
+      "title": "Disable Google login",
+      "description": "Remove Google login option",
+      "type": "boolean"
+    },
+    "EnableAppleLogin": {
+      "title": "Enable Apple Login",
+      "description": "Allow access to Apple login option. ",
+      "type": "boolean"
+    },
+    "NoFacebook": {
+      "title": "Disable Facebook login",
+      "description": "Remove Facebook login option",
+      "type": "boolean"
+    },
+    "EnableWeChatLogin": {
+      "title": "Enable WeChat Login",
+      "description": "Enables login with WeChat authentication.",
+      "type": "boolean"
+    },
+    "EnablQQLogin": {
+      "title": "Enable QQ Login",
+      "description": "Enables login with QQ authentication.",
+      "type": "boolean"
+    },
+    "EnableAlipayLogin": {
+      "title": "Enable Alipay Login",
+      "description": "Enables login with Alipay authentication.",
+      "type": "boolean"
+    },
+    "DisableLoginWithEmail": {
+      "title": "Disable Login With Email",
+      "description": "Remove Email login option",
+      "type": "boolean"
+    },
+    "NoSSO": {
+      "title": "Disable Login with SSO",
+      "description": "Remove SSO login option",
+      "type": "boolean"
+    },
+    "DisableKeepSignedInWithSSO": {
+      "title": "Disable Keep Signed In With SSO",
+      "description": "Require new SSO login upon client start",
+      "type": "boolean"
+    },
+    "DisableKeepSignedInWithGoogle": {
+      "title": "Disable Keep Signed In With Google",
+      "description": "Require new Google login upon client start",
+      "type": "boolean"
+    },
+    "DisableKeepSignedInWithFacebook": {
+      "title": "Disable Keep Signed In With Facebook",
+      "description": "Require new SSO login upon client start",
+      "type": "boolean"
+    },
+    "EnableEmbedBrowserForSSO": {
+      "title": "Enable Embed Browser For SSO",
+      "description": "Use embed browser in the client for SSO",
+      "type": "boolean"
+    },
+    "EnforceSignInToJoin": {
+      "title": "Enforce Sign In To Join",
+      "description": "Forces users to be signed in before joining a meeting from the app. Users can be signed-in on the web portal when joining through join URL.",
+      "type": "boolean"
+    },
+    "EnforceAppSignInToJoin": {
+      "title": "Enforce App Sign In To Join",
+      "description": "Require the client to be logged-in to a Zoom account before joining any meeting or webinar",
+      "type": "boolean"
+    },
+    "SetWebDomain": {
+      "title": "Set Web Domain",
+      "description": "Sets the web domain for logging in or joining a meeting. By default, the value is https://zoom.us or https://zoom.com",
+      "type": "string"
+    },
+    "KeepSignedIn": {
+      "title": "Keep Signed In",
+      "description": "Keep the user signed in to the client when it is restarted (email login only)",
+      "type": "boolean"
+    },
+    "zAutoUpdate": {
+      "title": "Auto Update",
+      "description": "Allow checking for updates through the client by users. When disabled, the Check for Updates button is also hidden. Note: This is not a true auto-update feature, this only allows the user to manually check for updates. Please see EnableSilentAutoUpdate",
+      "type": "boolean"
+    },
+    "EnableSilentAutoUpdate": {
+      "title": "Enable Silent Auto Update",
+      "description": "Allows the desktop client to silently check for available stable-version updates. This option requires AutoUpdate option to be enabled, and will fail if not enabled.",
+      "type": "boolean"
+    },
+    "AlwaysCheckLatestVersion": {
+      "title": "Always Check Latest Version",
+      "description": "Allows the desktop client to check for any available updates. This option requires AutoUpdate option to be enabled, and will fail if not enabled.",
+      "type": "boolean"
+    },
+    "SetUpdatingChannel": {
+      "title": "Set Updating Channel",
+      "description": "Allows the control of the cadence of updates applied to the desktop client. False (0): fewer updates and better stability. True (1): newest features and updates",
+      "type": "boolean"
+    },
+    "disableDaemonInstall": {
+      "title": "Disable Daemon Install",
+      "description": "Controls the use of the daemon helper to install updates, which bypasses the need to enter admin credentials when upgrading. This option requires AutoUpdate option to be enabled, and will fail if not enabled.",
+      "type": "boolean"
+    },
+    "Login_Domain": {
+      "title": "Login Domain",
+      "description": "Set the email address domain that users can login with",
+      "type": "string"
+    },
+    "DefaultUsePortraitView": {
+      "title": "Default Use Portrait View",
+      "description": "Default to Portrait Mode upon opening Zoom",
+      "type": "boolean"
+    },
+    "zDisableFT": {
+      "title": "Disable File Transfer",
+      "description": "Disable in-meeting file transfer. (sending or receiving)",
+      "type": "boolean"
+    },
+    "DisableDirectShare": {
+      "title": "Disable Direct Share",
+      "description": "Disables direct share with Zoom Rooms option",
+      "type": "boolean"
+    },
+    "PresentToRoomWithAudio": {
+      "title": "Present To Room With Audio",
+      "description": "Share sound when screen sharing to a Zoom Room",
+      "type": "boolean"
+    },
+    "EnableHIDControl": {
+      "title": "Enable HID Control",
+      "description": "Enables HID control of USB audio devices from the Zoom client",
+      "type": "boolean"
+    },
+    "EnableStartMeetingWithRoomSystem": {
+      "title": "Enable Start Meeting With Room System",
+      "description": "Displays the Call Room System button on the home screen of the Zoom client",
+      "type": "boolean"
+    },
+    "PresentToRoomOptimizeVideo": {
+      "title": "Present To Room Optimize Video",
+      "description": "Client will optimize screen sharing for video clip when sharing directly to a Zoom Room.",
+      "type": "boolean"
+    },
+    "PresentToRoomOption": {
+      "title": "Present To Room Option",
+      "description": "Set sharing option when sharing directly to a Zoom Room. False - Show all sharing options. True - Automatically share desktop",
+      "type": "boolean"
+    },
+    "PresentInMeetingOption": {
+      "title": "Present In Meeting Option",
+      "description": "Set sharing option when sharing directly to a Zoom Room within a meeting. False - Show all sharing options. True - Automatically share desktop",
+      "type": "boolean"
+    },
+    "AlwaysShowVideoPreviewDialog": {
+      "title": "Always Show Video Preview Dialog",
+      "description": "Always show the video preview when joining a meeting",
+      "type": "boolean"
+    },
+    "LegacyCaptureMode": {
+      "title": "Legacy Capture Mode",
+      "description": "Disables GPU acceleration",
+      "type": "boolean"
+    },
+    "BlockUntrustedSSLCert": {
+      "title": "Block Untrusted SSL Cert",
+      "description": "Block connections to untrusted SSL certificates",
+      "type": "boolean"
+    },
+    "EmbedUserAgentString": {
+      "title": "EmbedUser Agent String",
+      "description": "Embed a specified user agent string for all HTTP requests from Zoom client",
+      "type": "string"
+    },
+    "IgnoreBandwidthLimits": {
+      "title": "Ignore Bandwidth Limits",
+      "description": "Ignore bandwidth limited set on web settings. Useful for exceptions.",
+      "type": "boolean"
+    },
+    "DisableZoomApps": {
+      "title": "Disable Zoom Apps",
+      "description": "Hide Zoom Apps quick launch button in the Zoom interface.",
+      "type": "boolean"
+    },
+    "": {
+      "title": "",
+      "description": "",
+      "type": "boolean"
+    }
+  }
+}
