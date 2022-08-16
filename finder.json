@@ -1,0 +1,18 @@
+{
+  "title": "Finder settings",
+  "description": "com.apple.finder",
+  "properties": {
+    "ShowPathbar": {
+      "title": "Show Path Bar",
+      "description": "Enable file path at the bottom of finder.",
+      "default": true,
+      "type": "boolean"
+    },
+    "FXRemoveOldTrashItems": {
+      "title": "FXRemoveOldTrashItems",
+      "description": "Remove Items from the bin after 30 days",
+      "default": true,
+      "type": "boolean"
+    }
+  }
+}
