@@ -1,5 +1,6 @@
 {
   "title": "General Zoom Settings",
+  "__feedback": "https://github.com/jayspenceruk/jamf-schemas/issues",
   "description": "Deploy to us.zoom.config.  https://support.zoom.us/hc/en-us/articles/115001799006-Mass-deploying-preconfigured-settings-for-Mac",
   "properties": {
     "zAutoSSOLogin": {
