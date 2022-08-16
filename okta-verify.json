@@ -1,6 +1,6 @@
 {
     "title": "Okta Verify Config",
-    "description": "Config for the Okta Verify app on macOS",
+    "description": "Config for the Okta Verify app on macOS. Deploy to com.okta.mobile and com.okta.mobile.auth-service-extension",
     "__preferencedomain": "com.okta.mobile",
     "properties": {
         "OktaVerify.EnrollmentOptions": {
