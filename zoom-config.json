@@ -1,6 +1,6 @@
 {
   "title": "General Zoom Settings",
-  "description": "https://support.zoom.us/hc/en-us/articles/115001799006-Mass-deploying-preconfigured-settings-for-Mac",
+  "description": "Deploy to us.zoom.config.  https://support.zoom.us/hc/en-us/articles/115001799006-Mass-deploying-preconfigured-settings-for-Mac",
   "properties": {
     "zAutoSSOLogin": {
       "title": "Auto SSO Login",
