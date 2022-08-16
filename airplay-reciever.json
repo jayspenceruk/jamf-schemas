@@ -1,0 +1,12 @@
+{
+  "title": "Airplay Reciever Setting",
+  "description": "com.apple.controlcenter",
+  "properties": {
+    "AirplayRecieverEnabled": {
+        "title": "Allow Airplay Receiver",
+        "description": "If set to false, restricts ability to AirPlay to Mac",
+        "type": "boolean",
+        "default": true
+    }
+  }
+}
