@@ -2,6 +2,7 @@
     "title": "Okta Verify Config",
     "description": "Config for the Okta Verify app on macOS. Deploy to com.okta.mobile and com.okta.mobile.auth-service-extension",
     "__preferencedomain": "com.okta.mobile",
+    "__feedback": "https://github.com/jayspenceruk/jamf-schemas/issues",
     "properties": {
         "OktaVerify.EnrollmentOptions": {
             "title": "Silent Enrollment",
