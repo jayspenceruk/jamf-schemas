@@ -1,6 +1,7 @@
 {
   "title": "Airplay Reciever Setting",
   "description": "com.apple.controlcenter",
+  "__feedback": "https://github.com/jayspenceruk/jamf-schemas/issues",  
   "properties": {
     "AirplayRecieverEnabled": {
         "title": "Allow Airplay Receiver",
